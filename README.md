@@ -1,8 +1,55 @@
-# React + Vite
+# Paint App 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This simple Paint application allows users to draw and showcase their creativity. The project features basic drawing tools, and users can choose from different colors and brush sizes.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Drawing Tools ✏️🖌️**: Ability to draw with various tools like pen, brush, fill, etc.
+- **Color Selection 🎨**: Users can choose from different colors.
+- **Brush Size Adjustment 🖌️**: Different brush sizes can be selected for drawing.
+- **Save and Share 💾📤**: Drawings can be saved and optionally shared on social media platforms.
+
+## Technologies Used 💻
+
+
+- 💻 [React.js](https://reactjs.org/) - JS library for crafting user interfaces
+- 📦 [Vite](https://vitejs.dev/) - Module bundler
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- 🌐 [Netlify](https://www.netlify.com/) - Hosting service for static web apps
+
+## Install & Build 🔧
+
+Prerequisites
+
+- Install Node.js
+- Clone the repo
+
+📦 After cloning the repo install dependecies with
+
+
+
+ ```sh 
+  npm i
+```
+📡 To run development server use dev script
+ ```sh 
+  npm run dev
+```
+🔧 To build use build script
+ ```sh 
+  npm run build
+```
+
+  ## Demo  🌐
+ [paint-app.netlify.app](https://vite-paint-app.netlify.app/) 
+
+## Screenshots 📸
+<div style="display: flex; flex-direction: row;">
+    <img src="screenshots/paint-app.png" alt="Home Page" style="width: 50%; margin-right: 4%;">
+</div>
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
