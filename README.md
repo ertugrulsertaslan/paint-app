@@ -21,12 +21,10 @@ This simple Paint application allows users to draw and showcase their creativity
 
 Prerequisites
 
-- Install Node.js
-- Clone the repo
+- Install Node.js ⚙️
+- Clone the repo 🔄
 
 📦 After cloning the repo install dependecies with
-
-
 
  ```sh 
   npm i
@@ -39,6 +37,7 @@ Prerequisites
  ```sh 
   npm run build
 ```
+after running scripts go to http://localhost:5173 with your browser to use the app. 🌐
 
   ## Demo  🌐
  [paint-app.netlify.app](https://vite-paint-app.netlify.app/) 
