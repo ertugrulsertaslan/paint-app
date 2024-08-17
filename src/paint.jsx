@@ -4,7 +4,7 @@ const Paint = ({ value, onChange }) => {
   const [drawing, setDrawing] = useState(false);
   const [erasing, SetEraser] = useState(false);
 
-  const [brushColor, SetBrushColor] = useState("green");
+  const [brushColor, SetBrushColor] = useState("black");
   const [brushSize, SetBrushSize] = useState(5);
   const [eraserSize, SetEraserSize] = useState(5);
   const canvasRef = useRef(null);
