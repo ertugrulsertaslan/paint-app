@@ -11,7 +11,9 @@ const App = () => {
   return (
     <div className="flex">
       <Paint value={drawingDataURL} onChange={handleDrawingChange} />
-      <Paint value={drawingDataURL} onChange={handleDrawingChange} />
+      <div className="hidden md:block">
+        <Paint value={drawingDataURL} onChange={handleDrawingChange} />
+      </div>
     </div>
   );
 };

@@ -21,7 +21,7 @@ const Paint = ({ value, onChange }) => {
     image.src = value;
     image.onload = () => {
       ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-    }; // w 400 h 200
+    };
     const resizeCanvas = () => {
       canvas.width = window.innerWidth - 960;
       canvas.height = window.innerHeight - 300;
