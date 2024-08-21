@@ -2,6 +2,11 @@
 
 This simple Paint application allows users to draw and showcase their creativity. The project features basic drawing tools, and users can choose from different colors and brush sizes.
 
+## Screenshots 📸
+<div style="display: flex; flex-direction: row;">
+    <img src="screenshots/paint-app.png" alt="Home Page" style="width: 50%; margin-right: 4%;">
+</div>
+
 ## Features ✨
 
 - **Drawing Tools ✏️🖌️**: Ability to draw with various tools like pen, brush, fill, etc.
@@ -42,10 +47,7 @@ after running scripts go to http://localhost:5173 with your browser to use the a
   ## Demo  🌐
  [paint-app.netlify.app](https://vite-paint-app.netlify.app/) 
 
-## Screenshots 📸
-<div style="display: flex; flex-direction: row;">
-    <img src="screenshots/paint-app.png" alt="Home Page" style="width: 50%; margin-right: 4%;">
-</div>
+
 
 
 
